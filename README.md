@@ -45,3 +45,10 @@ python -m pip install vtk==9.2.4 git+https://github.com/enthought/mayavi.git@mas
 ```
 conda install -c conda-forge cartopy
 ```
+
+## Running the code
+After the set up is done, run main.py. You can then enter the search query to see the results.
+
+```
+python main.py
+```
