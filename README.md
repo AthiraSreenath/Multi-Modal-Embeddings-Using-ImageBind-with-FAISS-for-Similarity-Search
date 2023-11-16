@@ -11,7 +11,7 @@ ImageBind is not available as a Python library yet, so we need to clone the offi
 <b>Note! While ImageBind is easy to use, setting it up can be quite cumbersome if you run into version conflicts with packages based on your environment. Feel free to update package versions in the requirements.txt file to address the conflicts.</b>
 
 
-### Create a venv and clone the official repo
+#### Create a venv and clone the official repo
 
 ```
 conda create --name imagebind python=3.8 -y
@@ -21,27 +21,27 @@ conda activate imagebind
 git clone https://github.com/facebookresearch/ImageBind
 cd ImageBind
 ```
-### Install packages from requirements.txt using below command
+#### Install packages from requirements.txt using below command
 ```
 pip install .
 ```
-### For windows users, you might need to install soundfile for reading/writing audio files
+#### For windows users, you might need to install soundfile for reading/writing audio files
 ```
 pip install soundfile
 ```
-### Install FAISS
+#### Install FAISS
 ```
 pip install faiss-cpu
 ```
-### or
+#### or
 ```
 conda install -c pytorch -c nvidia faiss-gpu=1.7.4 mkl=2021 blas=1.0=mkl
 ```
-### If you encounter ERROR: Could not build wheels for mayavi, which is required to install pyproject.toml-based projects
+#### If you encounter ERROR: Could not build wheels for mayavi, which is required to install pyproject.toml-based projects
 ```
 python -m pip install vtk==9.2.4 git+https://github.com/enthought/mayavi.git@master#egg=mayavi
 ```
-### If you encounter "Unable to install Cartopy: Failed building wheel for Cartopy"
+#### If you encounter "Unable to install Cartopy: Failed building wheel for Cartopy"
 ```
 conda install -c conda-forge cartopy
 ```
