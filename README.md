@@ -1,0 +1,1 @@
+# Multi-Modal-Embeddings-Using-ImageBind-with-FAISS-for-Similarity-Search
